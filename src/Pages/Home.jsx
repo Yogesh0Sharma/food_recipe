@@ -17,7 +17,7 @@ export default function Home() {
     return (
         <>
             <Routes>
-                <Route exact path="/" element={<Pages />} />
+                <Route exact path="/food_recipe" element={<Pages />} />
                 <Route path="/FoodCatagory/:type" element={<FoodCatagory />} />
                 <Route path="/recipe/:id" element={<Recipe />} />
                 <Route path="/searched/:name" element={<SearchResult />} />

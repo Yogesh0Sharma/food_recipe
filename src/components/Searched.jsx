@@ -9,7 +9,7 @@ export default function Searched() {
     return (
         <div className='search_parent'>
             <div className='serch_outer'>
-                <input type="text" value={val} onChange={(e) => {
+                <input placeholder='search dish name' type="text" value={val} onChange={(e) => {
                     setVal(e.target.value)
                 }} />
                 <NavLink to={`/searched/${val}`}><button onClick={() => {

@@ -5,7 +5,7 @@ import { GiKnifeFork } from 'react-icons/gi';
 export default function header() {
     return (
         <div>
-            <NavLink className="nav" to="/">
+            <NavLink className="nav" to="/food_recipe">
                 {/* <img className='logo' src="https://i.ibb.co/4WxV1ZD/fresh.jpg" alt="image" /> */}
                 <h1 className='logo'><GiKnifeFork /> Khana Khazana</h1>
             </NavLink>
